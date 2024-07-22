@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build:ts": "tsc --build tsconfig.all.json",
+    "dev:ts": "pnpm run build:ts --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.3.0"
+}

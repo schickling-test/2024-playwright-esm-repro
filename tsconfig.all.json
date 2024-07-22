@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {},
+  "include": [],
+  "references": [
+    { "path": "./packages/@acme/lib" },
+    { "path": "./packages/@acme/tests" },
+  ]
+}

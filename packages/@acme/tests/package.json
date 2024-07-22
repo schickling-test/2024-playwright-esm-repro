@@ -1,0 +1,28 @@
+{
+  "name": "@acme/tests",
+  "version": "0.0.54-dev.27",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./playwright-workaround": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@acme/lib": "workspace:*"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.45.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
